@@ -133,10 +133,8 @@ and (max-device-width : 767px) {
     .product {
         width: 80%;
     }
-    .remote{
-        margin: -10px;
     }
-}
+
 
 /* Destops or Large screens */
 @media screen and (min-width: 1224px) {
