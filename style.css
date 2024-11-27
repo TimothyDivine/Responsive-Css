@@ -1,0 +1,143 @@
+body {
+    background-color: lightgrey;
+    padding: 20px;
+    margin: 5% 20%;
+    overflow-x: hidden;
+}
+
+.content {
+    background-color: whitesmoke;
+    padding: 20px 20px;
+    margin: -50px;
+    margin-top: -1px;
+    margin-bottom: -1px;
+}
+
+.padding{
+    /* padding: 0px 10px 0px 10px; */
+}
+.product {
+    padding: 10px px;
+    margin: 20px 20px;
+    background-color: white;
+    border-bottom: 3.5px solid  rgb(168, 173, 177);
+    border-radius: 20px;
+    
+}
+
+h1 {
+    padding: 20px 20px;
+    background-color: white;
+    margin: -50px;
+    margin-bottom: 7px;
+    font-style: inherit;
+}
+
+.picture img {
+   margin: -19px;
+   margin-right: -40px;
+   margin-left: -40px;
+   width: 15vw;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+}
+
+.products {
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+h3 {
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+
+h6 {
+    padding-left: 10px;
+    padding-top: 3px;
+}
+.foot {
+    padding: 15px 15px;
+    background-color: rgb(199, 200, 201);
+    margin: -50px;
+    margin-top: -20px;
+    /* text-align: center; */
+    justify-content: space-between;
+    }
+ h6 p {
+    display: flex; justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+    
+ }
+
+ h6 button {
+    background-color: rgb(0, 81, 255);
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    font-size: 70%;
+ }
+ /* iPads (portrait and landscape) ----------- */
+@media  screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1223px) {
+    .picture img{
+        width: 100%;
+    }
+    .picture{
+        width: 100%;
+    }
+ 
+    .products{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+        .product {
+            width: 40%;
+
+        }
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media  screen 
+and (min-device-width : 106px) 
+and (max-device-width : 767px) {
+    h6 p {
+        padding: 0%;
+    }
+.picture img{
+    width: 100%;
+}
+.picture{
+
+    width: 100%;
+}
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+.products{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+    .product {
+        width: 80%;
+    }
+    .remote{
+        margin: -10px;
+    }
+}
+
+/* Destops or Large screens */
+@media screen and (min-width: 1224px) {
+}
