@@ -77,14 +77,42 @@ h6 {
     
  }
 
- h6 button {
+  h6 button {
     background-color: rgb(0, 81, 255);
     color: white;
     padding: 10px;
+    padding-left: 10%;
     border-radius: 6px;
     border: none;
     font-size: 70%;
+    display: none;
  }
+
+ .padding {
+    display: flex;
+    justify-content: space-around;
+     }
+
+ button:hover {
+    scale: 1;
+    font-size: 1rem;
+    padding: 7px 17px;
+    display: flex;
+    color: white;
+    background-color: rgba(3, 3, 248, 0.833);
+    border: none;
+    border-radius: 10px;
+     }
+
+     p {
+        align-items: center;
+     }
+
+     
+     
+     
+
+
  /* iPads (portrait and landscape) ----------- */
 @media  screen 
 and (min-device-width : 768px) 
