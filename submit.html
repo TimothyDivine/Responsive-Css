@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit</title>
+    <link rel="html" href="index.html">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+    <form class="purchase" action="/purchased.html" id="purchase"><h1 class="intro">Thanks For Buying our Goods Enter Your Bank Details Below</h1><br><br><br>
+        <div class="purchase1">
+            <div class="content2" id="submit.html">
+        <label for="name"><b> Your Name</b></label><br>
+        <input id="name" name="Name" type="text" required><br><br>
+        <label for="bank name"><b>Your Bank Name</b></label><br>
+        <input  type="text" id="bank name" list="banks" name="bank name">
+        <datalist id="banks">
+            <option value="First Bank"></option>
+            <option value="Access Bank"></option>
+            <option value="Polaris"></option>
+            <option value="UBA"></option>
+            <option value="Zenith"></option>
+            <option value="Union Bank"></option>
+            <option value="FCMB"></option>
+        </datalist>
+        <br><br>
+        <label for="card number"><b>Card Number</b></label><br>
+        <input id="card number" type="number" minlength="5" maxlength="11" required><br><br>
+        <label for="pin"><b>Pin</b></label><br>
+        <input id="pin" type="number" minlength="1" maxlength="6" required><br><br>
+        <br><br>
+        <!-- <button class="button2"><a href="purchased.html">Submit</a></button> -->
+         <input class="button2" type="submit" value="Submit">
+        </div>
+        </div>
+        </form>
+</body>
+</html>
