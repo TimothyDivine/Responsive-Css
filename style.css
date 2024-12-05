@@ -24,8 +24,10 @@ body {
     padding: 10px px;
     margin: 20px 20px;
     background-color: white;
-    border-bottom: 3.5px solid  rgb(168, 173, 177);
+    border-bottom: 5px solid  rgb(150, 154, 150);
     border-radius: 20px;
+  
+
     
 }
 
@@ -50,8 +52,18 @@ h1 {
     display: flex; 
     justify-content: center;
     flex-wrap: wrap;
+  
 }
 
+.product:hover {
+/* border-color: blue; */
+scale: 1.1;
+border-bottom: 3px solid rgba(0, 0, 255, 0.687);
+border-right:  3px solid rgba(0, 0, 255, 0.687);
+border-left: 3px solid rgba(0, 0, 255, 0.687);;
+border-top: 5px solid rgba(0, 0, 255, 0.687);
+
+}
 
 
 h3 {
@@ -97,14 +109,17 @@ h6 {
      }
 
  .button1:hover {
-    scale: 1.2;
-    font-size: 1rem;
-    padding: 7px 17px;
+    scale: 1.1;
+    font-size: 80%;
     display: flex;
     color: white;
-    background-color: rgba(3, 3, 248, 0.833);
+    background-color: rgb(7, 218, 7);
     border: none;
     border-radius: 10px;
+     }
+
+     .button2:hover {
+        background-color: red;
      }
 
      p {
@@ -150,7 +165,7 @@ h6 {
      }
      
      .intro {
-        padding: 27px;
+        padding: 2px;
         text-align: center;
         margin-bottom: -25.3%;
         color: white;
@@ -198,6 +213,8 @@ h6 {
             /* padding-top: -3%; */ 
            
          }
+
+         
          
          .button3 {
         scale: 2;
@@ -276,6 +293,7 @@ and (max-device-width : 767px) {
         margin-top: -5px;
       
      }
+}
 
      .body2 {
         background-image: radial-gradient(white,green); 
@@ -337,7 +355,7 @@ and (max-device-width : 767px) {
          }
 
          .successful {
-            /* font-size: 1.3rem;
+            font-size: 1.3rem;
             align-items: center;
             text-align: center;
             background-image: linear-gradient(white,purple,purple,white);
@@ -345,13 +363,13 @@ and (max-device-width : 767px) {
             scale: 1.6;
             
             color: white;
-            display: flex; */
+            display: flex; 
              
            
          }
          
          .button3 {
-        /* scale: 2;
+         scale: 2;
         display: flex;
         align-items: center;
         background-color: black;
@@ -359,11 +377,11 @@ and (max-device-width : 767px) {
         justify-content: space-evenly;
         margin-left: 5px;
         margin-bottom: 10rem;
-        margin-top: 10%; */
-         }
+        margin-top: 10%;
+         } 
 
-
-    }
+         /* submit.css */
+  
 
 
 /* Destops or Large screens */

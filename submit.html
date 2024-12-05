@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Submit</title>
-    <link rel="html" href="index.html">
+    <link rel="html" href="purchased.html">
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="body">
-    <form class="purchase"><h1 class="intro">Thanks For Buying our Goods Enter Your Bank Details Below</h1><br><br><br>
+    <form class="purchase" action="/purchased.html" method="get"><h1 class="intro">Thanks For Buying our Goods Enter Your Bank Details Below</h1><br><br><br>
         <div class="purchase1">
             <div class="content2" id="submit.html">
         <label for="name"><b> Your Name</b></label><br>
@@ -31,7 +31,15 @@
         <input id="pin" type="number" minlength="1" maxlength="6" required><br><br>
         <br><br>
         <!-- <button class="button2"><a href="purchased.html">Submit</a></button> -->
-         <button class="button2"><a href="purchased.html">Submit</a></button>
+         <!-- <button class="button2" type="submit" id="submit"><a href="purchased.html">Submit</a></button> -->
+
+         <label for="submit"></label>
+         <input class="button2" type="submit" id="submit" value="submit">
+        
+       
+          
+        
+
         </div>
         </div>
         </form>
