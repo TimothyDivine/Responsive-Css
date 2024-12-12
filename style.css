@@ -346,8 +346,8 @@ and (max-device-width : 1223px) {
 }
 /* Smartphones (portrait and landscape) ----------- */
 @media  screen 
-and (min-device-width : 106px) 
-and (max-device-width : 767px) {
+and (min-device-width : 56px) 
+and (max-device-width : 769px) {
     h6 p {
         padding: 0%;
     }
@@ -469,7 +469,7 @@ and (max-device-width : 767px) {
          } 
 
          /* submit.css */
-  
+        }
 
 
 /* Destops or Large screens */
